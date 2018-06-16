@@ -19,7 +19,7 @@ h2{
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 25px;
   color: solid black;
   font-family:'Dancing Script';
   font-style: lighter;
@@ -41,6 +41,7 @@ p{
   margin-right: 100px;
   font-weight: lighter;
   line-height: 25px;
+  margin-top: -20px;
 }
 .header{
   background-color:#00ffd6;
@@ -48,10 +49,6 @@ p{
 
 }
 
-.line{
-  border: 5px;
-  
-}
 
 .image1 img{
   width:120%;
@@ -67,29 +64,28 @@ p{
 }
 
 .image2 img{
-  width:90%;
+  width:100%;
   height: 100%;
-  margin-right: 500px;
-  margin-left: 40px;
+
 
 }
 
 .image2{
-  width: 70%;
+  width: 100%;
   height: 100%;
-  margin-top: -5%;
+  margin-top: -10%;
+
 }
 
 .image3 img{
   width:100%;
   height: 100%;
-  margin-right: 500px;
-  margin-left: 40px;
   margin-top: 40px;
 }
 .image3{
-  width: 70%;
+  width: 100%;
   height: 100%;
+  margin-left: 40px;
 }
 
 .contact{
@@ -101,6 +97,8 @@ p{
 
 .contenttext{
   padding-top: 25px;
+
+
 
 
 }
