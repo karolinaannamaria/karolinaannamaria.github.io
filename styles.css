@@ -8,15 +8,15 @@ h1 {
 }
 
 h2{
-  font-size: 30;
-  color:#f5b1b4;
-  font-family: arial;
+  font-size: 35px;
+  color:solid black;
+  font-family: 'Dancing Script';
   margin-left: 40px;
 
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   color: #fdd9d2;
   font-family:'Dancing Script';
   font-style: lighter;
@@ -44,32 +44,56 @@ p{
 }
 
 .image1 img{
-  with:100%;
+  width:120%;
   height: auto;
   padding-top: 40px;
+  margin-left: 40px;
 }
 
 .image1{
   width: 200%;
   height: 200%;
-
 }
 
 .image2 img{
-  width:100%;
-  height: auto%;
-  padding-top: 40px;
-  margin-left: 450px;
+  width:90%;
+  height: 100%;
+  margin-right: 500px;
+  margin-left: 40px;
+
 }
 
 .image2{
-  width: 30%;
-  height: 30%;
-
+  width: 70%;
+  height: 100%;
+  margin-top: -20%;
 }
+
+.image3 img{
+  width:70%;
+  height: 100%;
+  margin-right: 500px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
 
 .contact{
   background-color:#fedfab;
   padding: 20px;
   text-align: center;
+}
+
+.contenttext{
+  padding-top: 25px;
+
+}
+
+.contentbox{
+  background-color: #9cdfd8;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  opacity: 0.75;
+
 }
