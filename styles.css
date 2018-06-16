@@ -1,11 +1,10 @@
 h1 {
-  font-size: 50px;
-  color: black;
-  font-family:'Lobster';
+  font-size: 70px;
+  color: #fdd9d2;
+  font-family:'Sunflower';
   font-style: normal;
   text-align: center;
-  font-variant: inherit;
-  font-kerning: auto;
+
 }
 
 h2{
@@ -18,8 +17,8 @@ h2{
 
 h3 {
   font-size: 16px;
-  color: #ec636a;
-  font-family: arial;
+  color: #fdd9d2;
+  font-family:'Dancing Script';
   font-style: lighter;
   margin-left: 40px
 }
@@ -35,7 +34,7 @@ p{
   line-height: 25px;
 }
 .header{
-  background-color: #fedfab;
+  background-color:#08b09f;
   padding: 20px;
 
 }
@@ -47,12 +46,12 @@ p{
 .image1 img{
   with:100%;
   height: auto;
-  margin-left: 450px;
   padding-top: 40px;
 }
 
 .image1{
-  width: 100%
+  width: 200%;
+  height: 200%;
 
 }
 
