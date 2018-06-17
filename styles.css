@@ -1,7 +1,7 @@
 h1 {
   font-size: 70px;
-  color: solid black;
-  font-family:'Sunflower';
+  color:white;
+  font-family:'Dancing Script';
   font-style: normal;
   text-align: center;
 
@@ -28,8 +28,11 @@ h3 {
 }
 
 .tagline{
-margin-top: -5%;
-margin-left: 160px;
+margin-top: -4%;
+margin-left: 275px;
+color: white;
+font-weight: lighter;
+
 }
 
 p{
@@ -41,12 +44,12 @@ p{
   margin-right: 100px;
   font-weight: lighter;
   line-height: 25px;
-  margin-top: -20px;
+  margin-top: -15px;
 }
 .header{
-  background-color:#00ffd6;
-  padding: 80px;
+  padding: 70px;
   width: 100%;
+  background-color: #ffb400;
 
 }
 
@@ -54,19 +57,23 @@ p{
 .image1 img{
   width:120%;
   height: auto;
-  padding-top: 40px;
   margin-left: 40px;
+
 }
 
 .image1{
   width: 200%;
   height: 200%;
   margin-top: -5%;
+
+
 }
 
 .image2 img{
-  width:100%;
+  width: 158%;
   height: 100%;
+  margin-top: 112px;
+  margin-left: -80px;
 
 
 }
@@ -75,6 +82,7 @@ p{
   width: 100%;
   height: 100%;
   margin-top: -10%;
+  margin-right: 20px;
 
 }
 
@@ -90,31 +98,34 @@ p{
 }
 
 .contact{
-  background-color:#fedfab;
+  background-color:#ffb400;
   padding: 20px;
   text-align: center;
   margin-top: -5%;
 }
 
 .contenttext{
-  padding-top: 25px;
+  padding-top:15px;
   text-align: justify;
+  padding: 20px;
+
 
 }
 
 .contentbox{
-  background-color: #9cdfd8;
+  background-color: #ffb400;
   padding-top: 5px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   margin-right: 20px;
   opacity: 0.75;
-  height: 300px;
-  margin-top: 10%;
+  margin-top:10%;
+
+
 
 }
 
 @media (max-width: 600px){
-  .image1{
+  .image1 img{
     margin-right: 0px;
     align-content: center;
     width: 141%;
@@ -142,8 +153,9 @@ p{
 .content{
   height: 400px;
   width: 400px;
-  flex-direction: row;
+  flex-direction:row;
   flex-wrap: wrap;
 }
+
   }
 }
