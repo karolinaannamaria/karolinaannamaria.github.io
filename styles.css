@@ -46,6 +46,7 @@ p{
 .header{
   background-color:#00ffd6;
   padding: 80px;
+  width: 100%;
 
 }
 
@@ -97,9 +98,7 @@ p{
 
 .contenttext{
   padding-top: 25px;
-
-
-
+  text-align: justify;
 
 }
 
@@ -112,4 +111,39 @@ p{
   height: 300px;
   margin-top: 10%;
 
+}
+
+@media (max-width: 600px){
+  .image1{
+    margin-right: 0px;
+    align-content: center;
+    width: 141%;
+    height: auto;
+    padding-top: 27px;
+    margin-left: -38px;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .tagline{
+    margin-left: 40px;
+
+  }
+.header {
+  padding: 15px;
+  width: 100%;
+
+}
+.contenttext{
+  height: 700px;
+  width: 700px;
+
+}
+.content{
+  height: 400px;
+  width: 400px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+  }
 }
